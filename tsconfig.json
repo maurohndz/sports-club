@@ -11,10 +11,15 @@
     "baseUrl": ".",
     "paths": {
       //"@route": ["./src/**"]
+      "@Config/*": ["./src/config/*"],
+      "@Shared/*": ["./src/shared/*"],
+      "@Employees/*": ["./src/modules/*"],
     },
     "typeRoots": ["./node_modules/@types"],
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
   },
-  "include": ["src/*"],
+  "include": ["src/**/**/*"],
   "exclude": ["node_modules"]
 }
