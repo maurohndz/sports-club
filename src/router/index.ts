@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import EmployeesRouter from '@Employees/Employees/router/index.employees';
+import EmployeesRouter from './Employees.router';
 
 function loadRouter(main: Router): void {
   const router = Router();
