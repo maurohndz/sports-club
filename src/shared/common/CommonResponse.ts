@@ -6,6 +6,7 @@ export class CommonResponse {
   data;
 
   constructor(data, messageKey) {
+    // Obtener el código y el mensaje de la respuesta
     const params = messages[messageKey] ?? messages[ERROR_SERVER];
 
     this.data = data;
@@ -13,6 +14,9 @@ export class CommonResponse {
     this.message = params.message;
   }
 
+  /**
+   * Build response
+   */
   build(): { code: number; data: unknown; message: string } {
     return {
       code: this.code,

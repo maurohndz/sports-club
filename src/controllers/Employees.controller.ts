@@ -15,7 +15,7 @@ export class EmployeesController extends CommonController {
    */
   signUp = this.mount(async (req, res): Promise<unknown> => {
     return await this.employeesService.signUp(req.body).then((employee) => {
-      return employee;
+      return { data: employee };
     });
   });
 }
