@@ -6,7 +6,7 @@ export class CommonError extends CommonResponse {
     super(null, keyError);
 
     // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
-    if (messages[keyError]) {
+    if (!messages[keyError]) {
       console.error(keyError);
     }
   }
