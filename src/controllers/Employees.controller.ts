@@ -1,8 +1,8 @@
 // External
 import { Service } from 'typedi';
 // Own
-import { EmployeesService } from '@Services/Employees.service';
-import { CommonController } from '@Shared/common/CommonController';
+import { EmployeesService } from '../services/Employees.service';
+import { CommonController } from '../shared/common/CommonController';
 
 @Service()
 export class EmployeesController extends CommonController {

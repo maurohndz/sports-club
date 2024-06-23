@@ -1,4 +1,5 @@
-import { messages, ERROR_SERVER } from '@Shared/constant/enums/messageHttp';
+// Own
+import { messages, ERROR_SERVER } from '..//constant/enums/messageHttp';
 
 export class CommonResponse {
   code;

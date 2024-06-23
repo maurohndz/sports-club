@@ -2,11 +2,11 @@
 import { Router } from 'express';
 import { Container } from 'typedi';
 // Own
-import _EmployeesController from '@Controllers/Employees.controller';
+import _EmployeesController from '../controllers/Employees.controller';
 import {
   EMPLOYEES_SIGN_UP,
   EMPLOYEES_PREFIX
-} from '@Shared/constant/urls/Employees.url';
+} from '../shared/constant/urls/Employees.url';
 
 const employeesController = Container.get(_EmployeesController);
 

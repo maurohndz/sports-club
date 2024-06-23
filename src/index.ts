@@ -1,4 +1,5 @@
+// External
 import 'reflect-metadata';
-
-import '@Config/loadEnv';
+// Own
+import './config/loadEnv';
 import './App';

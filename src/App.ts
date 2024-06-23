@@ -1,6 +1,8 @@
+// External
 import express from 'express';
 import bodyParser from 'body-parser';
-import { ENV_API } from '@Config/environment';
+// Own
+import { ENV_API } from './config/environment';
 import loadRouter from './router';
 
 // App express

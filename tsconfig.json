@@ -9,14 +9,6 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      //"@route": ["./src/**"]
-      "@Config/*": ["./src/config/*"],
-      "@Shared/*": ["./src/shared/*"],
-      "@Employees/*": ["./src/modules/*"],
-      "@Controllers/*": ["./src/controllers/*"],
-      "@Services/*": ["./src/services/*"],
-    },
     "typeRoots": ["./node_modules/@types"],
     "strictNullChecks": true,
     "emitDecoratorMetadata": true,

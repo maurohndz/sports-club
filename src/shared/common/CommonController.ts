@@ -1,7 +1,9 @@
+// External
 import { type Request, type Response } from 'express';
-import { type cFunction } from '@Shared/interfaces/controller.interfaces';
+// Own
+import { type cFunction } from '../interfaces/controller.interfaces';
 import { CommonResponse } from './CommonResponse';
-import { SUCCESS } from '@Shared/constant/enums/messageHttp';
+import { SUCCESS } from '../constant/enums/messageHttp';
 import { CommonError } from './CommonError';
 
 export class CommonController {

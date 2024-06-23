@@ -1,4 +1,6 @@
+// External
 import { Router } from 'express';
+// Own
 import EmployeesRouter from './Employees.router';
 
 function loadRouter(main: Router): void {
